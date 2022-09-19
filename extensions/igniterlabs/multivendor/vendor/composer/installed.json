@@ -1,0 +1,70 @@
+{
+    "packages": [
+        {
+            "name": "igniter-labs/commission-calculator",
+            "version": "1.0.0",
+            "version_normalized": "1.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/igniter-labs/commission-calculator.git",
+                "reference": "2937d3c4343f20cbe544b71cb68498eceb3a697b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/igniter-labs/commission-calculator/zipball/2937d3c4343f20cbe544b71cb68498eceb3a697b",
+                "reference": "2937d3c4343f20cbe544b71cb68498eceb3a697b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.4"
+            },
+            "time": "2022-02-17T00:59:53+00:00",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "IgniterLabs\\CommissionCalculator\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Samuel Adepoyigi",
+                    "email": "sam@sampoyigi.com"
+                }
+            ],
+            "description": "Commission calculator for TastyIgniter's Multi Vendor extension",
+            "homepage": "https://tastyigniter.com",
+            "keywords": [
+                "commission",
+                "multivendor",
+                "tastyigniter"
+            ],
+            "support": {
+                "issues": "https://github.com/igniter-labs/commission-calculator/issues",
+                "source": "https://github.com/igniter-labs/commission-calculator/tree/1.0.0"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/tastyigniter",
+                    "type": "github"
+                },
+                {
+                    "url": "https://opencollective.com/tastyigniter",
+                    "type": "open_collective"
+                }
+            ],
+            "install-path": "../igniter-labs/commission-calculator"
+        }
+    ],
+    "dev": false,
+    "dev-package-names": []
+}

@@ -1,0 +1,26 @@
+{
+  "name": "igniterlabs/ti-ext-multivendor",
+  "type": "tastyigniter-extension",
+  "description": "Turn your website into a marketplace with multiple vendors and start earning from their sales.",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Igniter Labs Team"
+    }
+  ],
+  "require": {
+    "igniter-labs/commission-calculator": "~1.0"
+  },
+  "extra": {
+    "tastyigniter-extension": {
+      "code": "igniterlabs.multivendor",
+      "name": "Multi Vendor",
+      "icon": {
+        "image": "icon.svg",
+        "backgroundColor": "#147EFB",
+        "color": "#147EFB"
+      },
+      "homepage": "https://tastyigniter.com/marketplace/item/igniterlabs-multivendor"
+    }
+  }
+}

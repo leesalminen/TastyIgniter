@@ -52,7 +52,7 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'http://localhost/'),
+    'url' => env('APP_URL', 'https://uvitaeats.com/'),
 
     'asset_url' => env('ASSET_URL', null),
 
@@ -119,7 +119,7 @@ return [
     |
     */
 
-    'key' => env('APP_KEY', 'CHANGE!!!!!!!!!!!!!!!!!!!!!!!!!'),
+    'key' => env('APP_KEY', 'base64:c367jv0uHGczvWH36ck9xJCx6qCBCuZNr+18Vsu4rVg='),
 
     'cipher' => 'AES-256-CBC',
 
