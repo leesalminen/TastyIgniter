@@ -253,6 +253,11 @@ class LocalList extends \System\Classes\BaseComponent
 
     protected function filterQueryResult($collection, $searchDeliveryAreas = false)
     {
+        // LEE HACK TO AVOID DEFAULT LOCATION FROM SHOWING UP
+        $collection = $collection->filter(function ($location) {
+            return $location->permalink_slug !== "default";
+        });
+
         $coordinates = Location::userPosition()->getCoordinates();
         if ($searchDeliveryAreas && $coordinates) {
             $collection = $collection->filter(function ($location) use ($coordinates) {

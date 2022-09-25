@@ -8,7 +8,7 @@ permalink: /contact
 <div class="container">
     <div class="row">
         <div class="col-md-6 m-auto">
-            <div class="card mb-3">
+            <!-- <div class="card mb-3">
                 @if ($contactLocation = $contact->location)
                     <div class="card-body">
                         <h1 class="h3 card-title">{{ $contactLocation->getName() }}</h1>
@@ -22,7 +22,7 @@ permalink: /contact
                         </div>
                     </div>
                 @endif
-            </div>
+            </div> -->
 
             <div class="card">
                 <div class="card-body">
